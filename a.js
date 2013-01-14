@@ -116,7 +116,7 @@ function Base64() {
 var b = new Base64();  
 function ff(x){
 var str=b.decode(ct[x]);
-str=str.replace(/alt alt=""/g,'');
+str=str.replace(/alt=""/g,'');
 str=str.replace(/src="/g,'src="http://www.tsinsen.com');
 str=str.replace(/href="/g,'href="http://www.tsinsen.com');
 str=str.replace(/""/g,'"');
